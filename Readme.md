@@ -1,0 +1,1 @@
+ docker run -d   --privileged  --name=gqrx   -e PUID=1000   -e PGID=1000   -e TZ=Europe/London   -p 3002:3000   --restart unless-stopped  -v /dev/bus/usb:/dev/bus/usb   -v /var/run/dbus:/var/run/dbus  829dc35bbe8e
