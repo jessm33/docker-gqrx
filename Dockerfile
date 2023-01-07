@@ -5,6 +5,8 @@ FROM ghcr.io/linuxserver/baseimage-rdesktop-web:jammy
 
 RUN \
   echo "**** install packages ****" && \
+  usermod -a -G plugdev abc && \
+  echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y \
     gqrx-sdr && \
