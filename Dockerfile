@@ -21,7 +21,7 @@ COPY /root /
 
 COPY /config /config
 
-RUN chown -r abc:abc /config/.config
+RUN chown -R abc:abc /config/.config
 
 # ports and volumes
 EXPOSE 3000
