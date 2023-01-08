@@ -19,9 +19,8 @@ RUN \
 # add local files
 COPY /root /
 
-COPY /config /config/
+COPY --chown=abc:abc /config/.config /config/.config/ 
 
-RUN chown -R abc:abc /config/.config
 
 # ports and volumes
 EXPOSE 3000
