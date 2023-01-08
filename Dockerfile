@@ -19,7 +19,7 @@ RUN \
 # add local files
 COPY /root /
 
-COPY --chown=abc:abc /config/.config/gqrx /config/.config/gqrx/
+#COPY --chown=abc:abc /config/.config/gqrx /config/.config/gqrx/
 
 
 # ports and volumes
