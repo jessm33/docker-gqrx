@@ -19,7 +19,7 @@ RUN \
 # add local files
 COPY /root /
 
-COPY /config /config
+COPY /config /config/
 
 RUN chown -R abc:abc /config/.config
 
