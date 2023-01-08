@@ -1,1 +1,8 @@
+
+# default file copies first run
+[[ ! -d /config/.config/gqrx/default.conf ]] && \
+	mkdir -p /config/.config/gqrx && \
+        cp /defaults/gqrx/* /config/.config/gqrx/ && \
+	chown -R abc:abc /config/.config/gqrx
+
 /usr/bin/gqrx -e
