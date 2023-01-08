@@ -1,0 +1,340 @@
+# minFrequency, maxFrequency, mode, step, color, name
+
+# USA Amateur Radio
+135700,       137800,       CW,  10, #90009470, 2200m Ham Band
+472000,       479000,       CW,  10, #90009470, 630m Ham Band
+1800000,      2000000,      CW,  10, #90009470, 160m Ham Band
+3500000,      3600000,      CW,  10, #90009470, 80m CW/Data Ham Band
+3600000,      4000000,      CW,  10, #90009470, 80m Phone Ham Band
+5351500,      5366500,      USB, 10, #90009470, 60m Ham Band
+7000000,      7125000,      CW,  10, #90009470, 40m CW/Data Ham Band
+7125000,      7300000,      LSB, 10, #90009470, 40m Phone Ham Band
+10100000,     10150000,     CW,  10, #90009470, 30m CW/Data Ham Band
+14000000,     14150000,     CW,  10, #90009470, 20m CW/Data Ham Band
+14150000,     14350000,     USB, 10, #90009470, 20m Phone Ham Band
+18068000,     18110000,     CW,  10, #90009470, 17m CW/Data Ham Band
+18110000,     18168000,     USB, 10, #90009470, 17m Ham Band
+21000000,     21200000,     CW,  10, #90009470, 15m CW/Data Ham Band
+21200000,     21450000,     USB, 10, #90009470, 15m Ham Band
+24890000,     24930000,     CW,  10, #90009470, 12m CW/Data Ham Band
+24930000,     24990000,     USB, 10, #90009470, 12m Ham Band
+28000000,     28300000,     CW,  10, #90009470, 10m CW/Data Ham Band
+28300000,     29700000,     USB, 10, #90009470, 10m Ham Band
+50000000,     50100000,     CW,  10, #90009470, 6m CW/Data Ham Band
+50100000,     54000000,     USB, 10, #90009470, 6m Ham Band
+144000000,    144100000,    CW,  10, #90009470, 2m CW/Data Ham Band
+144100000,    148000000,    NFM, 10, #90009470, 2m Ham Band
+222000000,    225000000,    NFM, 10, #90009470, 1.25m Ham Band
+420000000,    450000000,    NFM, 10, #90009470, 70cm Ham Band
+902000000,    928000000,    NFM, 10, #90009470, 33cm Ham Band
+1240000000,   1300000000,   NFM, 10, #90009470, 23cm Ham Band
+2300000000,   2310000000,   NFM, 10, #90009470, GHz Ham Band
+2390000000,   2450000000,   NFM, 10, #90009470, GHz Ham Band
+3300000000,   3500000000,   NFM, 10, #90009470, GHz Ham Band
+5650000000,   5925000000,   NFM, 10, #90009470, GHz Ham Band
+10000000000,  10500000000,  NFM, 10, #90009470, GHz Ham Band
+24000000000,  24250000000,  NFM, 10, #90009470, GHz Ham Band
+47000000000,  47200000000,  NFM, 10, #90009470, GHz Ham Band
+77000000000,  81000000000,  NFM, 10, #90009470, GHz Ham Band
+122250000000, 123000000000, NFM, 10, #90009470, GHz Ham Band
+134000000000, 141000000000, NFM, 10, #90009470, GHz Ham Band
+241000000000, 250000000000, NFM, 10, #90009470, GHz Ham Band
+
+# Radionavigation - Source: https://www.ntia.doc.gov/files/ntia/publications/2003-allochrt.pdf
+9000,         14000,        USB, 10, #99AABD26, Radionavigation
+90000,        110000,       USB, 10, #99AABD26, Radionavigation
+190000,       200000,       USB, 10, #99C05017, Aeronautical Radionavigation
+200000,       275000,       USB, 10, #99C05017, Aeronautical Radionavigation
+275000,       285000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
+275000,       285000,       USB, 10, #99C05017, Aeronautical Radionavigation
+285000,       300000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+285000,       300000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
+300000,       325000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+300000,       325000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
+325000,       335000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+325000,       335000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
+335000,       405000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+405000,       415000,       USB, 10, #99AABD26, Radionavigation
+415000,       495000,       USB, 10, #99C05017, Aeronautical Radionavigation
+510000,       535000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+74800000,     75200000,     USB, 10, #99C05017, Aeronautical Radionavigation
+328600000,    335400000,    USB, 10, #99C05017, Aeronautical Radionavigation
+399900000,    400050000,    USB, 10, #99E9EB7C, Radionavigation Satellite
+960000000,    1215000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+1215000000,   1240000000,   USB, 10, #99E9EB7C, Radionavigation Satellite
+1300000000,   1350000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+1559000000,   1610000000,   USB, 10, #99E9EB7C, Radionavigation Satellite (Space to Earth)
+1559000000,   1626500000,   USB, 10, #99C05017, Aeronautical Radionavigation
+2700000000,   2900000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+2900000000,   3100000000,   USB, 10, #994C8E75, Maritime Radionavigation
+3500000000,   3650000000,   USB, 10, #99C05017, Aeronautical Radionavigation (Ground)
+4200000000,   4400000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+5000000000,   5250000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+5350000000,   5460000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+5460000000,   5470000000,   USB, 10, #99AABD26, Radionavigation
+5470000000,   5650000000,   USB, 10, #994C8E75, Maritime Radionavigation
+9000000000,   9200000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+9200000000,   9300000000,   USB, 10, #994C8E75, Maritime Radionavigation
+9300000000,   9500000000,   USB, 10, #99AABD26, Radionavigation
+13250000000,  13400000000,  USB, 10, #99C05017, Aeronautical Radionavigation
+14000000000,  14200000000,  USB, 10, #99AABD26, Radionavigation
+15400000000,  15700000000,  USB, 10, #99C05017, Aeronautical Radionavigation
+24450000000,  24650000000,  USB, 10, #99AABD26, Radionavigation
+24750000000,  25050000000,  USB, 10, #99AABD26, Radionavigation
+31800000000,  33400000000,  USB, 10, #99AABD26, Radionavigation
+45500000000,  47000000000,  USB, 10, #99E9EB7C, Radionavigation Satellite
+66000000000,  71000000000,  USB, 10, #99AABD26, Radionavigation
+66000000000,  71000000000,  USB, 10, #99E9EB7C, Radionavigation Satellite
+95000000000,  100000000000, USB, 10, #99AABD26, Radionavigation
+95000000000,  100000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
+134000000000, 142000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
+134000000000, 142000000000, USB, 10, #99AABD26, Radionavigation
+190000000000, 200000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
+190000000000, 200000000000, USB, 10, #99AABD26, Radionavigation
+252000000000, 265000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
+252000000000, 265000000000, USB, 10, #99AABD26, Radionavigation
+
+# Broadcast
+54000000,  72000000,  AM,  10, #902E98BB, Broadcast Television
+76000000,  088000000, AM,  10, #902E98BB, Broadcast Television
+88000000,  108000000, WFM, 10, #902E98BB, Broadcast Radio
+174000000, 216000000, AM,  10, #902E98BB, Broadcast Television
+470000000, 512000000, AM,  10, #902E98BB, Broadcast Television
+512000000, 608000000, AM,  10, #902E98BB, Broadcast Television
+614000000, 698000000, AM,  10, #902E98BB, Broadcast Television
+698000000, 763000000, AM,  10, #902E98BB, Broadcast Television
+
+# Other
+108000000, 118000000, AM,   5000, #906600FF, Air Band VOR/ILS
+118000000, 137000000, AM,   5000, #900000FF, Air Band Voice
+26960000,   27410000, AM,   5000, #90FF0000, CB
+156000000, 162025000, NFM, 12500, #90000080, Marine
+225000000, 380000000, NFM, 12500, #90FF0000, Military Air
+240000000, 270000000, NFM, 12500, #90FF0000, Mil Sat
+446000000, 446200000, NFM,  6250, #9000FF00, PMR446
+root@f509f1f3fd38:/config# cat .config/gqrx/
+bandplan.csv      default.conf      recentconfig.cfg
+root@f509f1f3fd38:/config# cat .config/gqrx/
+bandplan.csv      default.conf      recentconfig.cfg
+root@f509f1f3fd38:/config# cat .config/gqrx/default.conf
+[General]
+configversion=3
+crashed=false
+
+[audio]
+gain=-60
+udp_host=localhost
+
+[dxcluster]
+DXCAddress=localhost
+DXCFilter=
+DXCPort=7300
+DXCSpotTimeout=10
+DXCUsername=nocall
+
+[gui]
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\0\0\0\0\0\0\0\0\x5\xff\0\0\x2\xda\0\0\0\0\0\0\0\x14\0\0\x3\t\0\0\x2\xad\0\0\0\0\x2\0\0\0\x6\0\0\0\0\0\0\0\0\x13\0\0\x5\xff\0\0\x2\xda)
+state="@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x2\0\0\0\x1\0\0\x1G\0\0\x2w\xfc\x2\0\0\0\x2\xfc\0\0\0;\0\0\x1\x81\0\0\x1\x65\0\b\0\x1a\xfa\0\0\0\x1\x2\0\0\0\x3\xfb\0\0\0\x18\0\x44\0o\0\x63\0k\0I\0n\0p\0u\0t\0\x43\0t\0l\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xf8\0\xff\xff\xff\xfb\0\0\0\x12\0\x44\0o\0\x63\0k\0R\0x\0O\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\x1J\0\a\xff\xff\xfb\0\0\0\xe\0\x44\0o\0\x63\0k\0\x46\0\x66\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xc8\0\a\xff\xff\xfc\0\0\x1\xc2\0\0\0\xf0\0\0\0\xc3\0\xff\xff\xff\xfa\0\0\0\0\x2\0\0\0\x2\xfb\0\0\0\x12\0\x44\0o\0\x63\0k\0\x41\0u\0\x64\0i\0o\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xc3\0\xff\xff\xff\xfb\0\0\0\xe\0\x44\0o\0\x63\0k\0R\0\x44\0S\0\0\0\0\0\xff\xff\xff\xff\0\0\0h\0\xff\xff\xff\0\0\0\x3\0\0\0\0\0\0\0\0\xfc\x1\0\0\0\x1\xfb\0\0\0\x1a\0\x44\0o\0\x63\0k\0\x42\0o\0o\0k\0m\0\x61\0r\0k\0s\0\0\0\0\0\xff\xff\xff\xff\0\0\x1\x42\0\xff\xff\xff\0\0\x4\xb3\0\0\x2w\0\0\0\x1\0\0\0\x2\0\0\0\b\0\0\0\x2\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x16\0m\0\x61\0i\0n\0T\0o\0o\0l\0\x42\0\x61\0r\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)"
+
+[input]
+device="file=/path/to/your/file,freq=100e6,rate=1e6,repeat=true,throttle=true"
+frequency=14236000
+
+[receiver]
+demod=AM
+filter_high_cut=5000
+filter_low_cut=-5000
+
+[remote_control]
+allowed_hosts=127.0.0.1
+root@f509f1f3fd38:/config# s
+bash: s: command not found
+root@f509f1f3fd38:/config# ls
+startwm.sh
+root@f509f1f3fd38:/config#
+root@f509f1f3fd38:/config#
+root@f509f1f3fd38:/config# ls -a;
+.   .bashrc  .config  .gnuradio        .gr_fftw_wisdom.lock  startwm.sh        .xorgxrdp.11.log
+..  .cache   .dbus    .gr_fftw_wisdom  .local                .xorgxrdp.10.log  .xorgxrdp.12.log
+root@f509f1f3fd38:/config# ls -al
+total 88
+drwxr-xr-x 7 abc  abc   4096 Jan  8 17:03 .
+drwxr-xr-x 1 root root  4096 Jan  8 16:50 ..
+-rw-r--r-- 1 abc  abc   2408 Jan  8 16:50 .bashrc
+drwxrwxr-x 3 abc  abc   4096 Jan  8 17:03 .cache
+drwx------ 5 abc  abc   4096 Jan  8 17:02 .config
+drwx------ 3 abc  abc   4096 Jan  8 17:03 .dbus
+drwxrwxr-x 3 abc  abc   4096 Jan  8 17:03 .gnuradio
+-rw-rw-r-- 1 abc  abc    462 Jan  8 17:03 .gr_fftw_wisdom
+-rw-rw-r-- 1 abc  abc      0 Jan  8 16:50 .gr_fftw_wisdom.lock
+drwx------ 3 abc  abc   4096 Jan  8 17:03 .local
+-rwxr-xr-x 1 abc  abc     71 Jan  8 16:50 startwm.sh
+-rw-r--r-- 1 abc  abc  16178 Jan  8 16:53 .xorgxrdp.10.log
+-rw-r--r-- 1 abc  abc  14213 Jan  8 16:56 .xorgxrdp.11.log
+-rw-r--r-- 1 abc  abc  13942 Jan  8 17:03 .xorgxrdp.12.log
+root@f509f1f3fd38:/config#
+root@f509f1f3fd38:/config#
+root@f509f1f3fd38:/config#
+root@f509f1f3fd38:/config# cd .config/
+root@f509f1f3fd38:/config/.config# ls
+gqrx  openbox  pulse
+root@f509f1f3fd38:/config/.config# cd gqrx/
+root@f509f1f3fd38:/config/.config/gqrx# ls
+bandplan.csv  default.conf  recentconfig.cfg
+root@f509f1f3fd38:/config/.config/gqrx# cat default.conf
+[General]
+configversion=3
+crashed=false
+
+[audio]
+gain=-60
+udp_host=localhost
+
+[dxcluster]
+DXCAddress=localhost
+DXCFilter=
+DXCPort=7300
+DXCSpotTimeout=10
+DXCUsername=nocall
+
+[gui]
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\0\0\0\0\0\0\0\0\x5\xff\0\0\x2\xda\0\0\0\0\0\0\0\x14\0\0\x3\t\0\0\x2\xad\0\0\0\0\x2\0\0\0\x6\0\0\0\0\0\0\0\0\x13\0\0\x5\xff\0\0\x2\xda)
+state="@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x2\0\0\0\x1\0\0\x1G\0\0\x2w\xfc\x2\0\0\0\x2\xfc\0\0\0;\0\0\x1\x81\0\0\x1\x65\0\b\0\x1a\xfa\0\0\0\x1\x2\0\0\0\x3\xfb\0\0\0\x18\0\x44\0o\0\x63\0k\0I\0n\0p\0u\0t\0\x43\0t\0l\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xf8\0\xff\xff\xff\xfb\0\0\0\x12\0\x44\0o\0\x63\0k\0R\0x\0O\0p\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\x1J\0\a\xff\xff\xfb\0\0\0\xe\0\x44\0o\0\x63\0k\0\x46\0\x66\0t\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xc8\0\a\xff\xff\xfc\0\0\x1\xc2\0\0\0\xf0\0\0\0\xc3\0\xff\xff\xff\xfa\0\0\0\0\x2\0\0\0\x2\xfb\0\0\0\x12\0\x44\0o\0\x63\0k\0\x41\0u\0\x64\0i\0o\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\xc3\0\xff\xff\xff\xfb\0\0\0\xe\0\x44\0o\0\x63\0k\0R\0\x44\0S\0\0\0\0\0\xff\xff\xff\xff\0\0\0h\0\xff\xff\xff\0\0\0\x3\0\0\0\0\0\0\0\0\xfc\x1\0\0\0\x1\xfb\0\0\0\x1a\0\x44\0o\0\x63\0k\0\x42\0o\0o\0k\0m\0\x61\0r\0k\0s\0\0\0\0\0\xff\xff\xff\xff\0\0\x1\x42\0\xff\xff\xff\0\0\x4\xb3\0\0\x2w\0\0\0\x1\0\0\0\x2\0\0\0\b\0\0\0\x2\xfc\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x16\0m\0\x61\0i\0n\0T\0o\0o\0l\0\x42\0\x61\0r\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0)"
+
+[input]
+device="file=/path/to/your/file,freq=100e6,rate=1e6,repeat=true,throttle=true"
+frequency=14236000
+
+[receiver]
+demod=AM
+filter_high_cut=5000
+filter_low_cut=-5000
+
+[remote_control]
+allowed_hosts=127.0.0.1
+root@f509f1f3fd38:/config/.config/gqrx# cat recentconfig.cfg
+/config/.config/gqrx/default.conf
+root@f509f1f3fd38:/config/.config/gqrx# ls -la
+total 24
+drwxrwxr-x 2 abc abc 4096 Jan  8 17:04 .
+drwx------ 5 abc abc 4096 Jan  8 17:02 ..
+-rw-r--r-- 1 abc abc 7435 Jan  8 17:03 bandplan.csv
+-rw-rw-r-- 1 abc abc 1639 Jan  8 17:04 default.conf
+-rw-rw-r-- 1 abc abc   34 Jan  8 17:04 recentconfig.cfg
+root@f509f1f3fd38:/config/.config/gqrx#
+root@f509f1f3fd38:/config/.config/gqrx#
+root@f509f1f3fd38:/config/.config/gqrx# cat bandplan.csv
+# minFrequency, maxFrequency, mode, step, color, name
+
+# USA Amateur Radio
+135700,       137800,       CW,  10, #90009470, 2200m Ham Band
+472000,       479000,       CW,  10, #90009470, 630m Ham Band
+1800000,      2000000,      CW,  10, #90009470, 160m Ham Band
+3500000,      3600000,      CW,  10, #90009470, 80m CW/Data Ham Band
+3600000,      4000000,      CW,  10, #90009470, 80m Phone Ham Band
+5351500,      5366500,      USB, 10, #90009470, 60m Ham Band
+7000000,      7125000,      CW,  10, #90009470, 40m CW/Data Ham Band
+7125000,      7300000,      LSB, 10, #90009470, 40m Phone Ham Band
+10100000,     10150000,     CW,  10, #90009470, 30m CW/Data Ham Band
+14000000,     14150000,     CW,  10, #90009470, 20m CW/Data Ham Band
+14150000,     14350000,     USB, 10, #90009470, 20m Phone Ham Band
+18068000,     18110000,     CW,  10, #90009470, 17m CW/Data Ham Band
+18110000,     18168000,     USB, 10, #90009470, 17m Ham Band
+21000000,     21200000,     CW,  10, #90009470, 15m CW/Data Ham Band
+21200000,     21450000,     USB, 10, #90009470, 15m Ham Band
+24890000,     24930000,     CW,  10, #90009470, 12m CW/Data Ham Band
+24930000,     24990000,     USB, 10, #90009470, 12m Ham Band
+28000000,     28300000,     CW,  10, #90009470, 10m CW/Data Ham Band
+28300000,     29700000,     USB, 10, #90009470, 10m Ham Band
+50000000,     50100000,     CW,  10, #90009470, 6m CW/Data Ham Band
+50100000,     54000000,     USB, 10, #90009470, 6m Ham Band
+144000000,    144100000,    CW,  10, #90009470, 2m CW/Data Ham Band
+144100000,    148000000,    NFM, 10, #90009470, 2m Ham Band
+222000000,    225000000,    NFM, 10, #90009470, 1.25m Ham Band
+420000000,    450000000,    NFM, 10, #90009470, 70cm Ham Band
+902000000,    928000000,    NFM, 10, #90009470, 33cm Ham Band
+1240000000,   1300000000,   NFM, 10, #90009470, 23cm Ham Band
+2300000000,   2310000000,   NFM, 10, #90009470, GHz Ham Band
+2390000000,   2450000000,   NFM, 10, #90009470, GHz Ham Band
+3300000000,   3500000000,   NFM, 10, #90009470, GHz Ham Band
+5650000000,   5925000000,   NFM, 10, #90009470, GHz Ham Band
+10000000000,  10500000000,  NFM, 10, #90009470, GHz Ham Band
+24000000000,  24250000000,  NFM, 10, #90009470, GHz Ham Band
+47000000000,  47200000000,  NFM, 10, #90009470, GHz Ham Band
+77000000000,  81000000000,  NFM, 10, #90009470, GHz Ham Band
+122250000000, 123000000000, NFM, 10, #90009470, GHz Ham Band
+134000000000, 141000000000, NFM, 10, #90009470, GHz Ham Band
+241000000000, 250000000000, NFM, 10, #90009470, GHz Ham Band
+
+# Radionavigation - Source: https://www.ntia.doc.gov/files/ntia/publications/2003-allochrt.pdf
+9000,         14000,        USB, 10, #99AABD26, Radionavigation
+90000,        110000,       USB, 10, #99AABD26, Radionavigation
+190000,       200000,       USB, 10, #99C05017, Aeronautical Radionavigation
+200000,       275000,       USB, 10, #99C05017, Aeronautical Radionavigation
+275000,       285000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
+275000,       285000,       USB, 10, #99C05017, Aeronautical Radionavigation
+285000,       300000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+285000,       300000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
+300000,       325000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+300000,       325000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
+325000,       335000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+325000,       335000,       USB, 10, #994C8E75, Maritime Radionavigation (Radio Beacons)
+335000,       405000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+405000,       415000,       USB, 10, #99AABD26, Radionavigation
+415000,       495000,       USB, 10, #99C05017, Aeronautical Radionavigation
+510000,       535000,       USB, 10, #99C05017, Aeronautical Radionavigation (Radio Beacons)
+74800000,     75200000,     USB, 10, #99C05017, Aeronautical Radionavigation
+328600000,    335400000,    USB, 10, #99C05017, Aeronautical Radionavigation
+399900000,    400050000,    USB, 10, #99E9EB7C, Radionavigation Satellite
+960000000,    1215000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+1215000000,   1240000000,   USB, 10, #99E9EB7C, Radionavigation Satellite
+1300000000,   1350000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+1559000000,   1610000000,   USB, 10, #99E9EB7C, Radionavigation Satellite (Space to Earth)
+1559000000,   1626500000,   USB, 10, #99C05017, Aeronautical Radionavigation
+2700000000,   2900000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+2900000000,   3100000000,   USB, 10, #994C8E75, Maritime Radionavigation
+3500000000,   3650000000,   USB, 10, #99C05017, Aeronautical Radionavigation (Ground)
+4200000000,   4400000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+5000000000,   5250000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+5350000000,   5460000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+5460000000,   5470000000,   USB, 10, #99AABD26, Radionavigation
+5470000000,   5650000000,   USB, 10, #994C8E75, Maritime Radionavigation
+9000000000,   9200000000,   USB, 10, #99C05017, Aeronautical Radionavigation
+9200000000,   9300000000,   USB, 10, #994C8E75, Maritime Radionavigation
+9300000000,   9500000000,   USB, 10, #99AABD26, Radionavigation
+13250000000,  13400000000,  USB, 10, #99C05017, Aeronautical Radionavigation
+14000000000,  14200000000,  USB, 10, #99AABD26, Radionavigation
+15400000000,  15700000000,  USB, 10, #99C05017, Aeronautical Radionavigation
+24450000000,  24650000000,  USB, 10, #99AABD26, Radionavigation
+24750000000,  25050000000,  USB, 10, #99AABD26, Radionavigation
+31800000000,  33400000000,  USB, 10, #99AABD26, Radionavigation
+45500000000,  47000000000,  USB, 10, #99E9EB7C, Radionavigation Satellite
+66000000000,  71000000000,  USB, 10, #99AABD26, Radionavigation
+66000000000,  71000000000,  USB, 10, #99E9EB7C, Radionavigation Satellite
+95000000000,  100000000000, USB, 10, #99AABD26, Radionavigation
+95000000000,  100000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
+134000000000, 142000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
+134000000000, 142000000000, USB, 10, #99AABD26, Radionavigation
+190000000000, 200000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
+190000000000, 200000000000, USB, 10, #99AABD26, Radionavigation
+252000000000, 265000000000, USB, 10, #99E9EB7C, Radionavigation Satellite
+252000000000, 265000000000, USB, 10, #99AABD26, Radionavigation
+
+# Broadcast
+54000000,  72000000,  AM,  10, #902E98BB, Broadcast Television
+76000000,  088000000, AM,  10, #902E98BB, Broadcast Television
+88000000,  108000000, WFM, 10, #902E98BB, Broadcast Radio
+174000000, 216000000, AM,  10, #902E98BB, Broadcast Television
+470000000, 512000000, AM,  10, #902E98BB, Broadcast Television
+512000000, 608000000, AM,  10, #902E98BB, Broadcast Television
+614000000, 698000000, AM,  10, #902E98BB, Broadcast Television
+698000000, 763000000, AM,  10, #902E98BB, Broadcast Television
+
+# Other
+108000000, 118000000, AM,   5000, #906600FF, Air Band VOR/ILS
+118000000, 137000000, AM,   5000, #900000FF, Air Band Voice
+26960000,   27410000, AM,   5000, #90FF0000, CB
+156000000, 162025000, NFM, 12500, #90000080, Marine
+225000000, 380000000, NFM, 12500, #90FF0000, Military Air
+240000000, 270000000, NFM, 12500, #90FF0000, Mil Sat
+446000000, 446200000, NFM,  6250, #9000FF00, PMR446
