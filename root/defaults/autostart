@@ -5,5 +5,10 @@
     cp /defaults/gqrx/* /config/.config/gqrx/ && \
 	chown -R abc:abc /config/.config/gqrx
 
-sleep 60 
+PAREADY=0
+while [ $PAREADY -lt 10 ]; do
+	pacmd info && break
+	sleep 15
+	PAREADY=$(( $PAREADY + 1 ))
+done
 QT_LOGGING_RULES="*.debug=true;plotter.debug=false" /usr/bin/gqrx -e  2>&1 >/config/gqrx.out
