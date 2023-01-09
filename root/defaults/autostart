@@ -5,6 +5,5 @@
     cp /defaults/gqrx/* /config/.config/gqrx/ && \
 	chown -R abc:abc /config/.config/gqrx
 
-xmessage "Please wait startup in progress" &
-sleep 30
-/usr/bin/gqrx -e  
+
+/usr/bin/gqrx -e  || (sleep 30; /usr/bin/gqrx -e)
