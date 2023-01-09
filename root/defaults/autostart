@@ -6,4 +6,4 @@
 	chown -R abc:abc /config/.config/gqrx
 
 
-/usr/bin/gqrx -e
+QT_LOGGING_RULES="*.debug=true;plotter.debug=false;qt.*.debug=false" /usr/bin/gqrx -e
