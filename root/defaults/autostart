@@ -5,5 +5,5 @@
     cp /defaults/gqrx/* /config/.config/gqrx/ && \
 	chown -R abc:abc /config/.config/gqrx
 
-
+sleep 60 
 QT_LOGGING_RULES="*.debug=true;plotter.debug=false" /usr/bin/gqrx -e  2>&1 >/config/gqrx.out
