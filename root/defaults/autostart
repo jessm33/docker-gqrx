@@ -5,10 +5,10 @@
     cp /defaults/gqrx/* /config/.config/gqrx/ && \
 	chown -R abc:abc /config/.config/gqrx
 
-PAREADY=0
-while [ $PAREADY -lt 10 ]; do
-	pacmd info && break
+READY=0
+while [ $READY -lt 10 ]; do
+	pgrep dbus-daemon && break
 	sleep 15
-	PAREADY=$(( $PAREADY + 1 ))
+	READY=$(( $READY + 1 ))
 done
 QT_LOGGING_RULES="*.debug=true;plotter.debug=false" /usr/bin/gqrx -e  2>&1 >/config/gqrx.out
